@@ -15,8 +15,8 @@ spec:
         app: vproapp
     spec:
       containers:
-      - image: vprofile/vprofileapp:V1
-        name: vproapp
+      - name: vproapp
+        image: vprofile/vprofileapp:V1
         ports:
         - name: vproapp-port
           containerPort: 8080
